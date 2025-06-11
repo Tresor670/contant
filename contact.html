@@ -1,27 +1,31 @@
-html
-CopyEdit
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            width: 90%;
+            max-width: 600px;
+            height: 600px;
+            border: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
-    <form action="<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdza8n--ZL5ASWJWaEJrY2knRJPdssyJwUJZ7kjhEDF0d0M2A/viewform?embedded=true" width="640" height="738" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>" method="POST">
-        <h2>Contact Form</h2>
-
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="entry.1234567890" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="entry.0987654321" required>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="entry.1122334455" rows="4" required></textarea>
-        
-        <button type="submit">Submit</button>
-    </form>
+    <iframe class="form-container" src="<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdza8n--ZL5ASWJWaEJrY2knRJPdssyJwUJZ7kjhEDF0d0M2A/viewform?embedded=true" width="640" height="738" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>" allowfullscreen></iframe>
 </body>
 </html>
+
